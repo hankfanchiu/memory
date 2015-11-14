@@ -1,0 +1,16 @@
+How to determine a guess.
+  Go through the your memory of the board space by space...
+    Record the symbols to a hash as you find them
+    If you find a symbol that you've already seen
+      Guess that position.
+    Otherwise
+      If the symbol has not yet been seen...
+        Make a record of the fact that we've seen it.
+      If the space is blank...
+        Add this to our list of blank spaces.
+
+  If you've gotten to this point, you didn't make a guess because you
+    didn't find a pair of matching symbols.
+
+    So, go back to your list of blank spaces and guess one of them
+    
